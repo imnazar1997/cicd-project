@@ -2,7 +2,7 @@
 const http = require('http');
 
 http.createServer((req, res) => {
-  res.write("CI/CD PipeLine working Automatically");
+  res.write("CI/CD PipeLine Automatically working via webhook");
   res.end();
 }).listen(3000);
 
